@@ -28,15 +28,21 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             width: 100%;
-            max-width: 400px;
+            max-width: 600px;
             margin-bottom: 20px;
         }
 
-        .logo-container img, .video-container video {
+        .logo-container img {
             display: block;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
             width: 50%;
+            max-width: 200px;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
         }
 
         .form-group {
@@ -86,12 +92,6 @@
             margin-top: 20px;
         }
 
-        .video-container {
-            width: 100%;
-            max-width: 600px;
-            margin-bottom: 20px;
-        }
-
         .status-details {
             margin-top: 20px;
             border: 1px solid #ccc;
@@ -104,10 +104,7 @@
 <body>
     <div class="container">
         <div class="video-container">
-            <video autoplay loop muted>
-                <source src="your-company-video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+            <!-- Removed video tag -->
         </div>
         <main>
             <div class="logo-container">
